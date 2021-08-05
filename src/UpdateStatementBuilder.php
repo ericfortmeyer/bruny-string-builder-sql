@@ -12,7 +12,7 @@ use Bruny\SQLString\Predicate\PredicateBuildingTrait;
 /**
  * Helps with building an update statement string.
  */
-class UpdateStringBuilder
+class UpdateStatementBuilder
 {
     use PredicateBuildingTrait;
 
