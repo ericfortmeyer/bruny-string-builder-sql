@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Bruny\SQLString\Predicate;
 
 use Stringable;
-
 use PhpDs\Pair;
 
 /**
