@@ -23,7 +23,7 @@ class DeleteStatementBuilder
 
     public function __construct(protected PredicateBuilder $predicateBuilder, string $tableName)
     {
-        $this->command = join(self::WHITESPACE, [join(self::WHITESPACE, [self::DELETE, self::FROM]), $tableName]);
+        $this->command = join(self::WHITESPACE, [self::DELETE, self::FROM, $tableName]);
     }
 
     public function __toString()
